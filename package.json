@@ -4,19 +4,23 @@
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "main": "./dist/png.umd.cjs",
-  "module": "./dist/png.js",
+  "main": "./dist/PNG.umd.cjs",
+  "module": "./dist/PNG.js",
+  "types": "./types/PNG.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/Png.js",
-      "require": "./dist/Png.umd.cjs"
+      "types": "./types/PNG.d.ts",
+      "import": "./dist/PNG.js",
+      "require": "./dist/PNG.umd.cjs"
     }
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "getTypes": "tsc --declaration --emitDeclarationOnly --allowJs --lib esnext lib/PNG.js --outDir types"
   },
   "devDependencies": {
+    "typescript": "^5.0.4",
     "vite": "^4.0.4"
   },
   "dependencies": {

@@ -12,11 +12,10 @@ export default defineConfig({
   },
 
   build: {
-    // minify: false,
     lib: {
-      entry: './lib/Png.js',
-      name: 'Png',
-      fileName: 'Png',
+      entry: './lib/PNG.js',
+      name: 'PNG',
+      fileName: 'PNG',
     },
   },
 
