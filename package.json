@@ -3,9 +3,6 @@
   "private": false,
   "version": "0.0.2",
   "type": "module",
-  "files": [
-    "dist"
-  ],
   "main": "./dist/png.umd.cjs",
   "module": "./dist/png.js",
   "exports": {
