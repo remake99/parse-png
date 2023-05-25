@@ -9,8 +9,10 @@
   "main": "./dist/png.umd.cjs",
   "module": "./dist/png.js",
   "exports": {
-    "import": "./dist/png.js",
-    "require": "./dist/png.umd.cjs"
+    ".": {
+      "import": "./dist/Png.js",
+      "require": "./dist/Png.umd.cjs"
+    }
   },
   "scripts": {
     "dev": "vite",
@@ -18,5 +20,11 @@
   },
   "devDependencies": {
     "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "stream-browserify": "^3.0.0"
   }
 }

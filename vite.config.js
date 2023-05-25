@@ -1,11 +1,23 @@
 import { defineConfig } from "vite";
-export default defineConfig({
-  build: {
-    lib: {
-      entry: './lib/png.js',
-      name: 'png',
-      fileName: 'png',
-    },
 
-  }
+
+export default defineConfig({
+
+  resolve: {
+    alias: {
+      stream: 'stream-browserify',
+      zlib: 'browserify-zlib',
+      buffer: 'buffer',
+    },
+  },
+
+  build: {
+    minify: false,
+    lib: {
+      entry: './lib/Png.js',
+      name: 'Png',
+      fileName: 'Png',
+    },
+  },
+
 })
