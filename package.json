@@ -1,7 +1,8 @@
 {
   "name": "pngjs-remake",
+  "description": "this project from pngjs and remake by vite",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "./dist/png.umd.cjs",
   "module": "./dist/png.js",
@@ -24,7 +25,19 @@
     "buffer": "^6.0.3",
     "stream-browserify": "^3.0.0"
   },
-  "homepage": "https://github.com/remake99/parse-png",
-  "url": "https://github.com/remake99/parse-png/issues",
-  "email": "admin@remake99.dev"
+  "homepage": "https://github.com/remake99/pngjs",
+  "bugs": {
+    "url": "https://github.com/remake99/pngjs/issues",
+    "email": "admin@remake99.dev"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "reamke99",
+    "email": "admin@remake99.dev",
+    "url": "https://remake99.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remake99/pngjs"
+  }
 }
