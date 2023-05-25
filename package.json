@@ -2,7 +2,7 @@
   "name": "pngjs-remake",
   "description": "this project from pngjs and remake by vite",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/PNG.umd.cjs",
   "module": "./dist/PNG.js",
